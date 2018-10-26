@@ -59,9 +59,6 @@
     <Content Include="Datasets_D-900001NED-201806140900.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Publicatiefile_Energie_postcode6_2017.csv">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Compile Include="CcbImporter.fs" />
     <Content Include="Postcode6.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
