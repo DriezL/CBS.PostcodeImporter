@@ -1,0 +1,150 @@
+{
+  "_id": "5b3f7f18a74ecfb503f1cc69",
+  "Provenance": [
+    {
+      "Title": "Leveringen van elektriciteit en aardgas via het openbare net",
+      "Url": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/onderzoeksomschrijvingen/korte-onderzoeksbeschrijvingen/leveringen-van-elektriciteit-en-aardgas-via-het-openbare-net" 
+    }
+  ],
+  "Description": "Deze tabel bevat per postcodegebied de gemiddelde energielevering (aardgas en elektriciteit) vanuit  het openbaar net aan particuliere woningen en bedrijven./r/nGegevens beschikbaar: over 2017./r/nStatus van de cijfers: Definitief./r/n/r/nWijzigingen per 5 september 2018:/r/nGeen. Dit is een nieuwe tabel./r/n/r/nWanneer komen er nieuwe cijfers?/r/nDefinitieve cijfers: 3e kwartaal van het jaar volgend op het verslagjaar./r/n/r/nDefinities:/r/nParticuliere woning:/r/nEen verblijfsobject in de Basis Registraties Adressen en Gebouwen (BAG) met als gebruiksfunctie “woonfunctie” en géén andere functie./r/n/r/nDe cijfers van de gemiddelde energieleveringen zijn afgerond op tientallen en worden vermeld vanaf  vijf geldige leveringen.",
+  "Modified": "2018-06-14T09:00:00.000Z",
+  "Authority": "http://standaarden.overheid.nl/owms/terms/Centraal_Bureau_voor_de_Statistiek",
+  "License": "https://creativecommons.org/licenses/by/4.0/",
+  "DefaultPresentation": "graphType=table",
+  "Source": "CBS.",
+  "ContactPoint": "infoservice@cbs.nl",
+  "Identifier": "900001NED",
+  "Language": "nl",
+  "VersionNotes": "Dit is een nieuwe dataset.",
+  "Measures": [
+    {
+      "Identifier": "ME000001",
+      "Description": "De gemiddelde aardgaslevering in het betreffende jaar aan particuliere woningen, zoals berekend uit de aansluitingenregisters van de netbeheerders./r/nBij de berekening van de gemiddelde aardgaslevering zijn woningen met een zeer laag of zelfs nulverbruik meegeteld indien er sprake is van stadsverwarming. Hierdoor valt in gebieden waar stadsverwarming aanwezig is de gemiddelde aardgaslevering aan woningen laag uit./r/n/r/nDe cijfers zijn afgerond op tientallen en vermeld bij vijf of meer (bewoonde) woningen.",
+      "Format": null,
+      "MeasureGroupID": null,
+      "DatasetIdentifier": "900001NED",
+      "Dataset": null,
+      "Title": "Gemiddelde aardgaslevering aan woningen",
+      "DataType": "Long",
+      "Index": "1",
+      "PresentationType": null,
+      "Unit": "m3",
+      "Decimals": 0
+    },
+    {
+      "Identifier": "ME000002",
+      "Description": "De gemiddelde aardgaslevering in het betreffende jaar aan particuliere woningen, gecorrigeerd voor temperatuurverschillen tussen jaren. Deze gecorrigeerde waarde is berekend volgens de zogenaamde “Profielenmethodiek”, en komt daarmee overeen met het Standaardjaarverbruik (SJV) uit het aansluitingenregister./r/nBij de berekening van de gemiddelde gecorrigeerde aardgaslevering zijn woningen met een zeer laag of zelfs nulverbruik meegeteld indien er sprake is van stadsverwarming. Hierdoor valt in gebieden waar stadsverwarming aanwezig is de gemiddelde gecorrigeerde aardgaslevering aan woningen laag uit./r/n/r/nDe cijfers zijn afgerond op tientallen en vermeld bij vijf of meer (bewoonde) woningen.",
+      "Format": null,
+      "MeasureGroupID": null,
+      "DatasetIdentifier": "900001NED",
+      "Dataset": null,
+      "Title": "Gemiddelde aardgaslevering  aan woningen, klimaatgecorrigeerd",
+      "DataType": "Long",
+      "Index": "2",
+      "PresentationType": null,
+      "Unit": "m3",
+      "Decimals": 0
+    },
+    {
+      "Identifier": "ME000003",
+      "Description": "De gemiddelde elektriciteitslevering in het betreffende jaar aan particuliere woningen, zoals berekend vanuit de aansluitingenregisters van de netbeheerders. De eigen opwekking van elektriciteit, bijvoorbeeld met zonnepanelen, is niet bekend en dus ook niet inbegrepen in de gemiddelde jaarlevering. Ook collectieve verbruiken van bijvoorbeeld liftinstallaties of hal-/galerijverlichting zijn niet meegeteld bij de berekening./r/n/r/nDe cijfers zijn afgerond op tientallen en vermeld bij vijf of meer (bewoonde) woningen per woningtype of type eigendom.",
+      "Format": null,
+      "MeasureGroupID": null,
+      "DatasetIdentifier": "900001NED",
+      "Dataset": null,
+      "Title": "Gemiddelde elektriciteitslevering aan woningen",
+      "DataType": "Long",
+      "Index": "3",
+      "PresentationType": null,
+      "Unit": "kWh",
+      "Decimals": 0
+    },
+    {
+      "Identifier": "ME000004",
+      "Description": "De gemiddelde aardgaslevering in het betreffende jaar aan bedrijven, zoals berekend uit de aansluitingenregisters van de netbeheerders. Aansluitingen worden tot de populatie bedrijven gerekend indien er in de Basisadministraties Adressen en Gebouwen (BAG) sprake is van ten minste één niet-woonfunctie dan wel als uit de analyses blijkt dat er ook bedrijfsmatig gebruik van energie plaatsvindt./r/nBij bedrijven kunnen ook meerdere aansluitingen op een adres voorkomen. Deze aansluitingen worden gegroepeerd per adres, waarna een gemiddelde op postcode-6 wordt berekend./r/n/r/nDe cijfers zijn afgerond op tientallen en vermeld bij vijf of meer bedrijfsadressen.",
+      "Format": null,
+      "MeasureGroupID": null,
+      "DatasetIdentifier": "900001NED",
+      "Dataset": null,
+      "Title": "Gemiddelde aardgaslevering aan bedrijven",
+      "DataType": "Long",
+      "Index": "4",
+      "PresentationType": null,
+      "Unit": "m3",
+      "Decimals": 0
+    },
+    {
+      "Identifier": "ME000005",
+      "Description": "De gemiddelde elektriciteitslevering in het betreffende jaar aan bedrijven, zoals berekend uit de aansluitingenregisters van de netbeheerders. Aansluitingen worden tot de populatie bedrijven gerekend indien er in de Basisadministraties Adressen en Gebouwen (BAG) sprake is van ten minste één niet-woonfunctie dan wel als uit de analyses blijkt dat er ook bedrijfsmatig gebruik van energie plaatsvindt./r/nBij bedrijven kunnen ook meerdere aansluitingen op een adres voorkomen. Deze aansluitingen worden gegroepeerd per adres, waarna een gemiddelde op postcode-6 wordt berekend./r/nDe eigen opwekking van elektriciteit, bijvoorbeeld met zonnepanelen, is niet bekend en dus ook niet inbegrepen in de gemiddelde jaarlevering./r/n/r/nDe cijfers zijn afgerond op tientallen en vermeld bij vijf of meer bedrijfsadressen.",
+      "Format": null,
+      "MeasureGroupID": null,
+      "DatasetIdentifier": "900001NED",
+      "Dataset": null,
+      "Title": "Gemiddelde elektriciteitslevering aan bedrijven",
+      "DataType": "Long",
+      "Index": "5",
+      "PresentationType": null,
+      "Unit": "kWh",
+      "Decimals": 0
+    }
+  ],
+  "Version": "201806140900",
+  "ObservationCount": 3276,
+  "SearchPriority": "2",
+  "MeasureGroups": [],
+  "GraphTypes": "",
+  "Status": "Regulier",
+  "VersionReason": "Nieuw",
+  "Title": "Energielevering aan woningen en bedrijven; postcode 6, 2017",
+  "TemporalCoverage": "2017",
+  "Dimensions": [
+    {
+      "Type": "Dimension",
+      "Identifier": "PostCode6",
+      "Description": "",
+      "Title": "Postcode 6",
+      "DimensionGroups": []
+    }
+  ],
+  "RelatedSources": [
+    { 
+      "Title": "Energieverbruik particuliere woningen; woningtype, wijken en buurten, 2010",
+      "Url":  "https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83026NED/table"
+    },
+    { 
+      "Title": "Energieverbruik particuliere woningen; woningtype, wijken en buurten, 2011",
+      "Url":  "https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83025NED/table"
+    },
+    { 
+      "Title": "Energieverbruik particuliere woningen; woningtype, wijken en buurten, 2012",
+      "Url":  "https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83023NED/table"
+    },
+    { 
+      "Title": "Energieverbruik particuliere woningen; woningtype, wijken en buurten, 2013",
+      "Url":  "https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83022NED/table"
+    },
+    { 
+      "Title": "Energieverbruik particuliere woningen; woningtype, wijken en buurten, 2014",
+      "Url":  "https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83187NED/table"
+    },
+    { 
+      "Title": "Energieverbruik particuliere woningen; woningtype, wijken en buurten, 2015",
+      "Url":  "https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83568NED/table"
+    },
+    { 
+      "Title": "Energieverbruik particuliere woningen; woningtype, wijken en buurten, 2016",
+      "Url":  "https://opendata.cbs.nl/statline/#/CBS/nl/dataset/83800NED/table"
+    },
+    {
+      "Title": "Aardgas en elektriciteit; leveringen openbaar net, bouw en dienstensector", 
+      "Url": "https://opendata.cbs.nl/statline/#/CBS/nl/dataset/82117NED/table"
+    }
+  ],
+  "Publisher": "http://standaarden.overheid.nl/owms/terms/Centraal_Bureau_voor_de_Statistiek",
+  "ReleaseDate": "2018-06-14T09:00:00.000Z",
+  "Catalog": "CBS-Maatwerk",
+  "LongDescription": "Deze tabel bevat per postcodegebied de gemiddelde energielevering (aardgas en elektriciteit) vanuit  het openbaar net aan particuliere woningen en bedrijven./r/nGegevens beschikbaar: over 2017./r/nStatus van de cijfers: Definitief./r/n/r/nWijzigingen per 5 september 2018:/r/nGeen. Dit is een nieuwe tabel./r/n/r/nWanneer komen er nieuwe cijfers?/r/nDefinitieve cijfers: 3e kwartaal van het jaar volgend op het verslagjaar./r/n/r/nDefinities:/r/nParticuliere woning:/r/nEen verblijfsobject in de Basis Registraties Adressen en Gebouwen (BAG) met als gebruiksfunctie “woonfunctie” en géén andere functie./r/n/r/nDe cijfers van de gemiddelde energieleveringen zijn afgerond op tientallen en worden vermeld vanaf  vijf geldige leveringen.",
+  "Summary": "Energieverbruik Gas en Electra, Postcode 6 naar bedrijf/woning",
+  "Frequency": "Eenmalig",
+  "DatasetType": "Numeric"
+}
