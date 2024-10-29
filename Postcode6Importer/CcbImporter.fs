@@ -135,7 +135,7 @@ module CcbImporter =
               Status = "Regulier"
               ObservationsModified = DateTime.Now
               Modified = DateTime.Now
-              ObservationCount = 327623948579234875982375
+              ObservationCount = 3276239
               DatasetType = "Numeric"
             }
 

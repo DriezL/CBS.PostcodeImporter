@@ -1,4 +1,4 @@
-﻿namespace Library1
+﻿namespace ExoplanetExploration
 
 open FSharp.Data
 open MongoDB.Bson
